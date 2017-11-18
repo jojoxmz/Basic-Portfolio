@@ -1,0 +1,112 @@
+body{
+	background: lightgray;
+/*	background-image:url('assets/images/greyfloral.png');
+*/	color: #777777;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;}
+header{
+	background: #ffffff;
+	height: 100px;
+	position: relative;
+	border-bottom: solid;
+    border-bottom-color: #cccccc;}
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+	font-size: 30px;
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	padding: 35px;
+	left: 319px}
+nav{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: absolute;
+	padding: 30px;
+	right: 270px;
+	margin-top: 10px;}
+#about, #portfolio, #contact{
+	width: 100px;}
+#about:hover{
+	background: #cccccc;}
+#portfolio:hover{
+	background: #cccccc;}
+#contact:hover{
+	background: #cccccc;}
+a{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777777;
+	text-decoration: none;
+	display: inline-block;}
+.main{
+	border-top-color: #dddddd;
+	width: 960px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	position: relative;}
+#part1{
+	width: 590px;
+	float: left;
+	background: #ffffff;
+	padding: 20px 30px 40px 30px;}
+h2{
+	padding: 20px 0px 30px 0px;
+	border-bottom: solid;
+    border-bottom-color: #cccccc;
+	background: #ffffff;
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+	font-size: 30px;
+	color: #4aaaa5 }
+#profileimage{
+	float: left;
+	margin-right: 10px;}
+p{
+	margin-top: 20px;
+	text-align: left;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777777;
+	line-height: 1.5;}
+aside{
+	width: 210px;
+	height: 300px;
+	background: #ffffff;
+	margin-left: 20px;
+	float: right;
+	padding: 10px 30px 0px 30px;	}
+h3{
+	border-bottom: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: thin;
+    background: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+	font-size: 24px;
+	color: #4aaaa5;
+	padding: 20px 0px 20px 0px;
+	text-align: center;}
+.icon{
+	margin-top: 30px}
+
+.icon:hover{
+	background: #cccccc;}
+.clearfix::after{
+	content:"";
+	display: block ;
+	clear: both;}
+footer{
+	height: 60px;
+	padding-top: 40px;
+	background: #666666;
+	border-top: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: thick;
+    color: #cccccc;
+    text-align: center;
+	margin-top: 40px;}
